@@ -1,6 +1,3 @@
-
-# Oracle Conversion Functions – Lesson
-
 ## Learning Objectives
 Students will be able to:
 - Convert **dates to text** using `TO_CHAR`
@@ -78,11 +75,11 @@ FROM dual;
 ---
 
 ### Common Error Example
-❌ Wrong:
+Wrong:
 ```sql
 SELECT TO_DATE('03-12-2025');
 ```
-✅ Correct:
+Correct:
 ```sql
 SELECT TO_DATE('03-12-2025','DD-MM-YYYY');
 ```
